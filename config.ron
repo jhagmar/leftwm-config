@@ -56,6 +56,7 @@
     keybind: [
         (command: Execute, value: "dmenu_run", modifier: ["modkey"], key: "r"),
         (command: Execute, value: "brave", modifier: ["modkey"], key: "b"),
+        (command: Execute, value: "google-chrome-stable", modifier: ["modkey"], key: "g"),
         (command: Execute, value: "alacritty", modifier: ["modkey"], key: "Return"),
         (command: CloseWindow, value: "", modifier: ["modkey"], key: "w"),
         (command: SoftReload, value: "", modifier: ["modkey", "Control"], key: "r"),
@@ -74,7 +75,7 @@
         (command: ToggleFloating, value: "", modifier: ["modkey"], key: "t"),
         (command: IncreaseMainWidth, value: "", modifier: ["modkey"], key: "]"),
         (command: DecreaseMainWidth, value: "", modifier: ["modkey"], key: "["),
-        (command: ToggleFullScreen, value: "", modifier: ["modkey"], key: "g"),
+        (command: ToggleFullScreen, value: "", modifier: ["modkey"], key: "e"),
         (command: GotoTag, value: "1", modifier: ["modkey"], key: "a"),
         (command: GotoTag, value: "2", modifier: ["modkey"], key: "s"),
         (command: GotoTag, value: "3", modifier: ["modkey"], key: "d"),
