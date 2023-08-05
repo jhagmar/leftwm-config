@@ -61,7 +61,7 @@
         (command: CloseWindow, value: "", modifier: ["modkey"], key: "w"),
         (command: SoftReload, value: "", modifier: ["modkey", "Control"], key: "r"),
         (command: Execute, value: "loginctl kill-session $XDG_SESSION_ID", modifier: ["modkey", "Control"], key: "x"),
-        (command: Execute, value: "slock", modifier: ["modkey"], key: "p"),
+        (command: Execute, value: "slock", modifier: ["modkey", "Control"], key: "p"),
         (command: SwapTags, value: "", modifier: ["modkey"], key: "y"),
         (command: MoveWindowUp, value: "", modifier: ["modkey", "Shift"], key: "k"),
         (command: MoveWindowDown, value: "", modifier: ["modkey", "Shift"], key: "j"),
